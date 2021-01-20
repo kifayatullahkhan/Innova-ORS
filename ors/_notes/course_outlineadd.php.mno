@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RS_Courses" value="name:course_code;datatype:string,name:name;datatype:string" />
+	<infoitem key="UD_RS_getAllCourses" value="name:course_code;datatype:string,name:name;datatype:string" />
+</info>

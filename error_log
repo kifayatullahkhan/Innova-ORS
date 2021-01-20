@@ -1,0 +1,2 @@
+[24-Dec-2010 00:32:00] PHP Warning:  mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/innova/public_html/Connections/conn.php on line 9
+[24-Dec-2010 00:32:00] PHP Fatal error:  Access denied for user 'root'@'localhost' (using password: NO) in /home/innova/public_html/Connections/conn.php on line 9

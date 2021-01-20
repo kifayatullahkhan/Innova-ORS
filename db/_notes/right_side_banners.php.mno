@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetPage_LeftSection" value="name:LeftSection;datatype:blob" />
+	<infoitem key="UD_Rs_GetPageRightSection" value="name:RightSection;datatype:blob" />
+</info>

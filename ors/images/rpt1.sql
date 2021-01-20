@@ -1,0 +1,42 @@
+SELECT 
+  expenses.exp_id,
+  expenses.description,
+  expenses.exp_type_id,
+  exp_type.name,
+  sallaries.sallary_id,
+  sallaries.`date`,
+  sallaries.user_id,
+  sallaries.`month`,
+  receipts.receipt_id,
+  receipts.std_id,
+  receipts.amount,
+  receipts.class_code,
+  exp_type.exp_type_id,
+  SUM(expenses.amount) AS FIELD_1,
+  SUM(sallaries.amount) AS FIELD_2,
+  SUM(receipts.`date`) AS FIELD_3,
+  receipts.recipt_number,
+  expenses.voucher_number,
+  expenses.`date`
+FROM
+  exp_type
+  INNER JOIN expenses ON (exp_type.exp_type_id = expenses.exp_type_id),
+  sallaries,
+  receipts
+GROUP BY
+  expenses.exp_id,
+  expenses.description,
+  expenses.exp_type_id,
+  exp_type.name,
+  sallaries.sallary_id,
+  sallaries.`date`,
+  sallaries.user_id,
+  sallaries.`month`,
+  receipts.receipt_id,
+  receipts.std_id,
+  receipts.amount,
+  receipts.class_code,
+  exp_type.exp_type_id,
+  receipts.recipt_number,
+  expenses.voucher_number,
+  expenses.`date`

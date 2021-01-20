@@ -1,0 +1,31 @@
+﻿/*Default setting,its value isn't changed.*/
+.JWSSothinkBgC{background-color:transparent;}
+
+/*Global setting.    It: item    G:global*/
+.JWSItBS{border-style: none;}
+.JWSItBW{border-width:1px;}
+.JWSItBC{border-color:#454545;}
+.JWSGBgC{background-color:transparent;}
+.JWSGBgI{background-image:none;}
+.JWSGBgR{background-repeat:repeat;}
+
+
+/*Item  or  item tip setting.   Ot: mouse out   Ov: mouse over    It:item     F: font    Tp: tip  i:item */
+
+/*Item 0 */
+.JWSItBgCi0{background-color:transparent;}
+.JWSOtFi0{font:9pt Verdana,Arial;}
+.JWSOtFCi0{color:#000000;}
+.JWSOtFDi0{text-decoration:none;}
+.JWSOvFi0{font:9pt Verdana,Arial;}
+.JWSOvFCi0{color:#000000;}
+.JWSOvFDi0{text-decoration:none;}
+
+/*Item 1 */
+.JWSItBgCi1{background-color:transparent;}
+.JWSOtFi1{font:9pt Verdana,Arial;}
+.JWSOtFCi1{color:#000000;}
+.JWSOtFDi1{text-decoration:none;}
+.JWSOvFi1{font:9pt Verdana,Arial;}
+.JWSOvFCi1{color:#000000;}
+.JWSOvFDi1{text-decoration:none;}

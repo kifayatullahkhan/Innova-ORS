@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RS_ShowUserType" value="name:user_type_id;datatype:int,name:user_type_title;datatype:string" />
+	<infoitem key="UD_RS_ShowAllUsers" value="name:user_id;datatype:int,name:username;datatype:string,name:password;datatype:string,name:user_type_id;datatype:int,name:title;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:phone_no;datatype:string,name:mobile_no;datatype:string,name:nationality;datatype:string,name:email;datatype:string,name:dob;datatype:date,name:create_date;datatype:datetime,name:fix_salary;datatype:int" />
+	<infoitem key="UD_RS_ShowUser" value="name:user_id;datatype:int,name:username;datatype:string,name:password;datatype:string,name:user_type_id;datatype:int,name:title;datatype:string,name:first_name;datatype:string,name:last_name;datatype:string,name:phone_no;datatype:string,name:mobile_no;datatype:string,name:nationality;datatype:string,name:email;datatype:string,name:dob;datatype:date,name:create_date;datatype:datetime,name:fix_salary;datatype:int" />
+</info>

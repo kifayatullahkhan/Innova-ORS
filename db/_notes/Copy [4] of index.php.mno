@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetFooterHtML" value="name:FooterSectionID;datatype:int,name:FooterBody;datatype:blob,name:PageID;datatype:int" />
+	<infoitem key="UD_Rs_GetHeaderHtML" value="name:HeaderSectionID;datatype:int,name:HeaderBody;datatype:blob,name:PageID;datatype:int" />
+	<infoitem key="UD_Rs_GetPage_LeftSection" value="name:LeftSection;datatype:blob" />
+	<infoitem key="UD_Rs_GetSubLinks" value="name:subLinkID;datatype:int,name:LinkName;datatype:string,name:LinkTitle;datatype:string,name:LinkPageID;datatype:int,name:OrderNumber;datatype:int,name:linkID;datatype:int" />
+	<infoitem key="UD_Rs_GetPageSections" value="name:PageID;datatype:int,name:HeaderSectionID;datatype:int,name:LeftSectionID;datatype:int,name:RightSectionID;datatype:int,name:FooterSectionID;datatype:int" />
+	<infoitem key="UD_Rs_GetHorzMenu" value="name:linkID;datatype:int,name:LinkName;datatype:string,name:LinkTitle;datatype:string,name:LinkPageID;datatype:int,name:OrderNumber;datatype:int,name:ContentTypeID;datatype:int,name:HasSubMenu;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetPageHTML" value="name:PageID;datatype:int,name:PageName;datatype:string,name:CenterBody;datatype:blob" />
+</info>

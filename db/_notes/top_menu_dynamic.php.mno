@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetHorzMenu" value="name:linkID;datatype:int,name:LinkName;datatype:string,name:LinkTitle;datatype:string,name:LinkPageID;datatype:int,name:OrderNumber;datatype:int,name:ContentTypeID;datatype:int,name:HasSubMenu;datatype:int" />
+	<infoitem key="UD_Rs_GetSubLinks" value="name:subLinkID;datatype:int,name:LinkName;datatype:string,name:LinkTitle;datatype:string,name:LinkPageID;datatype:int,name:OrderNumber;datatype:int,name:linkID;datatype:int" />
+</info>

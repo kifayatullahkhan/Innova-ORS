@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetFooterHtML" value="name:FooterSectionID;datatype:int,name:FooterBody;datatype:blob,name:PageID;datatype:int" />
+</info>
